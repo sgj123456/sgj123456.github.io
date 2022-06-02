@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - 冒泡博客</title>
+        <link>https://example.com/posts/</link>
+        <description>所有文章 | 冒泡博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2586743928@qq.com (冒泡)</managingEditor>
+            <webMaster>2586743928@qq.com (冒泡)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 May 2022 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>利用Termux、GitHub Page、免费搭建一个Hugo博客</title>
+    <link>https://example.com/termux%E9%83%A8%E7%BD%B2hugo/</link>
+    <pubDate>Wed, 18 May 2022 21:57:40 &#43;0800</pubDate>
+    <author>冒泡</author>
+    <guid>https://example.com/termux%E9%83%A8%E7%BD%B2hugo/</guid>
+    <description><![CDATA[安装git用于上传和拉取GitHub仓库 1 install git -y 安装Hugo本体 1 pkg i hugo -y 使用Hugo创建一个实例，文件夹名为hugo 1 hugo new site hugo 打开创建的实]]></description>
+</item>
+</channel>
+</rss>
