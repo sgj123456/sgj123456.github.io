@@ -5,7 +5,7 @@ export default defineSiteConfig({
   lang: 'zh-CN',
   title: 'Valaxy Theme Yun',
   author: {
-    name: '云游君',
+    name: '冒泡',
   },
   description: 'Valaxy Theme Yun Preview.',
   social: [
@@ -16,14 +16,14 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      name: 'QQ 群 946678030',
+      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=jiao9IvB6R5RePWdClT9kVlzQy_hjHlV&authKey=9SLpVEHff5I0S8Fw2K7S61OxlWuiTkwgAydgIvT8%2BVhYF7SnOoIwNTrg%2FUBCH5zA&noverify=0&group_code=946678030',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/sgj123456',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
