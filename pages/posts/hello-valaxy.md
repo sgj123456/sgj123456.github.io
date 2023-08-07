@@ -4,9 +4,9 @@ date: 2022-8-08
 updated: 2022-08-08
 categories: Linux
 tags:
-    桌面环境
-    Linux
-    ArchLinux
+    - 桌面环境
+    - Linux
+    - ArchLinux
 top: 1
 ---
 
