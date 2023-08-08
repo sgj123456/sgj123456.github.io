@@ -21,8 +21,8 @@ sh $HOME/dotfiles//dotfiles-manage/install.sh
 ### 手动安装
 #### 前置条件
 + Arch Linux及其衍生发行版
-```bash
-pacman -S git helix fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim
+```sh
+pacman -S git helix fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dunst --noconfirm
 ```
 + Other Linux
 请自行安装所需应用
@@ -68,4 +68,5 @@ cp -r $HOME/dotfiles/* $HOME/.config/
 + [waybar](https://github.com/Alexays/Waybar/) 窗口Bar
 + [rofi](https://davatorium.github.io/rofi/) 窗口切换器
 + [Hyprland](https://hyprland.org/) 窗口管理器 
++ [Dunst](https://dunst-project.org/) 通知管理器
 + ...
