@@ -1,7 +1,7 @@
 ---
 title: Linux下Hyprland桌面环境配置文件
 date: 2022-8-08
-updated: 2022-08-08
+updated: 2022-08-09
 categories: Linux
 tags:
     - Linux
