@@ -27,7 +27,7 @@ pacman -S ttf-jetbrains-mono-nerd --noconfirm
 ```
 2. 程序
 ```sh
-pacman -S fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dunst thefuck --noconfirm
+pacman -S fish starship waybar rofi hyprland hyprpaper alacritty zoxide fzf grim dunst thefuck --noconfirm
 ```
 + Other Linux
 请自行安装所需应用
@@ -36,7 +36,7 @@ pacman -S fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dun
 ```sh
 mkdir $HOME/Pictures
 git clone https://github.com/sgj123456/dotfiles.git $HOME/dotfiles
-cp -r $HOME/dotfiles/{dunst, fish, hypr, kitty, rofi, waybar, starship,} $HOME/.config/
+cp -r $HOME/dotfiles/{dunst, fish, hypr, alacritty, rofi, waybar, starship,} $HOME/.config/
 ```
 2. 安装Helix(可选)
 + Arch Linux
@@ -57,14 +57,9 @@ helix -g build
 + <kbd>Win</kbd><kbd>r</kbd> 打开应用选择器(rofi -show drun)
 + <kbd>Win</kbd><kbd>s</kbd> 区域截图(默认保存到$HOME/Pictures文件夹)
 + ...
-### Kitty
-+ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>T</kbd> 打开新标签页(当前目录)
+### Alacritty
 + <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>N</kbd> 打开新窗口(当前目录)
-+ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Enter</kbd> 分割窗口(当前目录) 
-+ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>W</kbd> 关闭当前页面
-+ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Q</kbd> 关闭所有页面
-+ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>F2</kbd> 打开配置文件
-+ 其他默认快捷键，请查看官方Wiki
++ ...
 ## 命令行工具
 ### Zoxide 
 + `z [路径] `+<kbd>Tab</kbd> 查找目录
