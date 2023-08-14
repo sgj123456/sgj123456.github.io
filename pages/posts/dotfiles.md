@@ -1,7 +1,7 @@
 ---
 title: Linux下Hyprland桌面环境配置文件
 date: 2023-8-08
-updated: 2023-08-09
+updated: 2023-08-15
 categories: Linux
 tags:
     - Linux
@@ -52,9 +52,10 @@ helix -g build
 ```
 ## 快捷键
 ### Hyprland
-+ <kbd>Win</kbd><kbd>q</kbd> 打开新终端(Kitty)
-+ <kbd>Win</kbd><kbd>c</kbd> 关闭窗口
++ <kbd>Win</kbd><kbd>q</kbd> 打开新终端(Alacritty)
++ <kbd>Win</kbd><kbd>c</kbd> 杀死窗口
 + <kbd>Win</kbd><kbd>r</kbd> 打开应用选择器(rofi -show drun)
++ <kbd>Win</kbd><kbd>w</kbd> 显示/隐藏横条(waybar)
 + <kbd>Win</kbd><kbd>s</kbd> 区域截图(默认保存到$HOME/Pictures文件夹)
 + ...
 ### Alacritty
