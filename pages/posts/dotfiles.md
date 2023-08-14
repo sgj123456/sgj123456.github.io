@@ -21,8 +21,13 @@ sh $HOME/dotfiles//dotfiles-manage/install.sh
 ### 手动安装
 #### 前置条件
 + Arch Linux
+1. 字体
 ```sh
-pacman -S git fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dunst thefuck --noconfirm
+pacman -S ttf-jetbrains-mono-nerd --noconfirm 
+```
+2. 程序
+```sh
+pacman -S fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dunst thefuck --noconfirm
 ```
 + Other Linux
 请自行安装所需应用
