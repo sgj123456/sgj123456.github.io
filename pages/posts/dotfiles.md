@@ -22,7 +22,7 @@ sh $HOME/dotfiles//dotfiles-manage/install.sh
 #### 前置条件
 + Arch Linux
 ```sh
-pacman -S git fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dunst --noconfirm
+pacman -S git fish starship waybar rofi hyprland hyprpaper kitty zoxide fzf grim dunst thefuck --noconfirm
 ```
 + Other Linux
 请自行安装所需应用
@@ -47,23 +47,27 @@ helix -g build
 ```
 ## 快捷键
 ### Hyprland
-+ <kbd>Win</kbd>+<kbd>q</kbd> 打开新终端(Kitty)
-+ <kbd>Win</kbd>+<kbd>c</kbd> 关闭窗口
-+ <kbd>Win</kbd>+<kbd>r</kbd> 打开应用选择器(rofi -show drun)
-+ <kbd>Win</kbd>+<kbd>s</kbd> 区域截图(默认保存到$HOME/Pictures文件夹)
++ <kbd>Win</kbd><kbd>q</kbd> 打开新终端(Kitty)
++ <kbd>Win</kbd><kbd>c</kbd> 关闭窗口
++ <kbd>Win</kbd><kbd>r</kbd> 打开应用选择器(rofi -show drun)
++ <kbd>Win</kbd><kbd>s</kbd> 区域截图(默认保存到$HOME/Pictures文件夹)
 + ...
 ### Kitty
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> 打开新标签页(当前目录)
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> 打开新窗口(当前目录)
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd> 分割窗口(当前目录) 
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd> 关闭当前页面
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Q</kbd> 关闭所有页面
-+ <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F2</kbd> 打开配置文件
++ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>T</kbd> 打开新标签页(当前目录)
++ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>N</kbd> 打开新窗口(当前目录)
++ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Enter</kbd> 分割窗口(当前目录) 
++ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>W</kbd> 关闭当前页面
++ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Q</kbd> 关闭所有页面
++ <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>F2</kbd> 打开配置文件
 + 其他默认快捷键，请查看官方Wiki
 ## 命令行工具
 ### Zoxide 
-+ `z [路径] `+`Tab` 查找目录
++ `z [路径] `+<kbd>Tab</kbd> 查找目录
 + ...
+### The Fuck
+`fuck` 为上一条未成功执行的命令纠错
++ <kbd>Enter</kbd> 执行纠错命令
++ <kbd>Ctrl</kbd><kbd>c</kbd> 取消纠错命令
 ### Helix
 + `helix [路径]` 打开目录/文件
 #### 正常模式
@@ -82,4 +86,5 @@ helix -g build
 + [rofi](https://davatorium.github.io/rofi/) 窗口切换器
 + [Hyprland](https://hyprland.org/) 窗口管理器 
 + [Dunst](https://dunst-project.org/) 通知管理器
++ [TheFuck](https://github.com/nvbn/thefuck/) 命令行命令改错工具
 + ...
