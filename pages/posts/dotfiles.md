@@ -23,7 +23,7 @@ sh $HOME/dotfiles//dotfiles-manage/install.sh
 + Arch Linux
 1. 字体
 ```sh
-pacman -S ttf-jetbrains-mono-nerd --noconfirm 
+pacman -S ttf-jetbrains-mono-nerd --noconfirm
 ```
 2. 程序
 ```sh
@@ -50,6 +50,12 @@ cp -r $HOME/dotfiles/helix $HOME/.config/
 helix -g fetch
 helix -g build
 ```
+3. 安装NeoVim(可选)
+```sh
+pacman -S neovim --noconfirm
+cp -r $HOME/dotfiles/neovim $HOME/.config/
+nvim
+```
 ## 快捷键
 ### Hyprland
 + <kbd>Win</kbd><kbd>q</kbd> 打开新终端(Alacritty)
@@ -62,7 +68,7 @@ helix -g build
 + <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>N</kbd> 打开新窗口(当前目录)
 + ...
 ## 命令行工具
-### Zoxide 
+### Zoxide
 + `z [路径] `+<kbd>Tab</kbd> 查找目录
 + ...
 ### The Fuck
@@ -70,22 +76,24 @@ helix -g build
 + <kbd>Enter</kbd> 执行纠错命令
 + <kbd>Ctrl</kbd><kbd>c</kbd> 取消纠错命令
 ### Helix
-+ `helix [路径]` 打开目录/文件
++ `NeoVim [路径]` 打开目录/文件
 #### 正常模式
 + `:` 进入命令模式
 #### 命令模式
-+ `w`/`write` 保存
-+ `q`/`quite` 退出
-+ `config-open` 打开配置文件
++ `w` 保存
++ `q` 退出
++ ...
+#### NeoVim
 + ...
 ...
 ## Package
-+ [Helix](https://helix-editor.com/) 文本编辑器
++ [NeoVim](https://neovim.io/) 文本编辑器
 + [fish](https://fishshell.com/) Shell
 + [Starship](https://starship.rs/) 终端美化工具
 + [waybar](https://github.com/Alexays/Waybar/) 窗口Bar
 + [rofi](https://davatorium.github.io/rofi/) 窗口切换器
-+ [Hyprland](https://hyprland.org/) 窗口管理器 
++ [Hyprland](https://hyprland.org/) 窗口管理器
 + [Dunst](https://dunst-project.org/) 通知管理器
 + [TheFuck](https://github.com/nvbn/thefuck/) 命令行命令改错工具
 + ...
+
