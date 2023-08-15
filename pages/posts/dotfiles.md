@@ -38,19 +38,7 @@ mkdir $HOME/Pictures
 git clone https://github.com/sgj123456/dotfiles.git $HOME/dotfiles
 cp -r $HOME/dotfiles/{dunst, fish, hypr, alacritty, rofi, waybar, starship,} $HOME/.config/
 ```
-2. 安装Helix(可选)
-+ Arch Linux
-```sh
-pacman -S helix --noconfirm
-```
-+ Other Linux
-请自行安装Helix
-```sh
-cp -r $HOME/dotfiles/helix $HOME/.config/
-helix -g fetch
-helix -g build
-```
-3. 安装NeoVim(可选)
+2. 安装NeoVim
 ```sh
 pacman -S neovim --noconfirm
 cp -r $HOME/dotfiles/neovim $HOME/.config/
@@ -75,15 +63,13 @@ nvim
 `fuck` 为上一条未成功执行的命令纠错
 + <kbd>Enter</kbd> 执行纠错命令
 + <kbd>Ctrl</kbd><kbd>c</kbd> 取消纠错命令
-### Helix
+### NeoVim
 + `NeoVim [路径]` 打开目录/文件
 #### 正常模式
 + `:` 进入命令模式
 #### 命令模式
 + `w` 保存
 + `q` 退出
-+ ...
-#### NeoVim
 + ...
 ...
 ## Package
@@ -96,4 +82,5 @@ nvim
 + [Dunst](https://dunst-project.org/) 通知管理器
 + [TheFuck](https://github.com/nvbn/thefuck/) 命令行命令改错工具
 + ...
+
 
