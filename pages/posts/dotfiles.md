@@ -66,7 +66,7 @@ nvim
   <summary><h3>NeoVim</h3></summary>
 
 + `NeoVim [路径]` 打开目录/文件
-  # ⌨️ Keymaps
+# ⌨️ Keymaps
   - default `<leader>` is `<space>`
   - default `<localleader>` is `\`
   ## General
