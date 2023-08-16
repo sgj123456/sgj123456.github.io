@@ -27,7 +27,7 @@ pacman -S ttf-jetbrains-mono-nerd --noconfirm
 ```
 2. 程序
 ```sh
-pacman -S fish starship waybar rofi hyprland hyprpaper alacritty zoxide fzf grim dunst thefuck --noconfirm
+pacman -S fish starship waybar rofi hyprland hyprpaper alacritty zoxide fzf grim dunst thefuck neovim exa --noconfirm
 ```
 + Other Linux
 请自行安装所需应用
@@ -36,13 +36,7 @@ pacman -S fish starship waybar rofi hyprland hyprpaper alacritty zoxide fzf grim
 ```sh
 mkdir $HOME/Pictures
 git clone https://github.com/sgj123456/dotfiles.git $HOME/dotfiles
-cp -r $HOME/dotfiles/{dunst, fish, hypr, alacritty, rofi, waybar, starship,} $HOME/.config/
-```
-2. 安装NeoVim
-```sh
-pacman -S neovim --noconfirm
-cp -r $HOME/dotfiles/neovim $HOME/.config/
-nvim
+cp -r $HOME/dotfiles/* $HOME/.config/
 ```
 ## 配置
 ### Hyprland
@@ -62,6 +56,11 @@ nvim
 `fuck` 为上一条未成功执行的命令纠错
 + <kbd>Enter</kbd> 执行纠错命令
 + <kbd>Ctrl</kbd> <kbd>c</kbd> 取消纠错命令
+### exa
++ `ls`
++ `ls -a`
++ `ls -l`
++ `ls --tree --level=[数字]` 以树状显示`[数字]`层目录
 <details>
   <summary><h3>NeoVim</h3></summary>
 
@@ -141,7 +140,7 @@ nvim
   | <code>gr</code> | References | **n** |
   | <code>gD</code> | Goto Declaration | **n** |
   | <code>gI</code> | Goto Implementation | **n** |
-  | <code>gy</code> | Goto T[y]pe Definition | **n** |
+  | <code>gy</code> | Goto Type Definition | **n** |
   | <code>K</code> | Hover | **n** |
   | <code>gK</code> | Signature Help | **n** |
   | <code>&lt;c-k&gt;</code> | Signature Help | **i** |
@@ -465,5 +464,6 @@ nvim
 + [Hyprland](https://hyprland.org/) 窗口管理器
 + [Dunst](https://dunst-project.org/) 通知管理器
 + [TheFuck](https://github.com/nvbn/thefuck/) 命令行命令改错工具
++ [exa](https://github.com/ogham/exa)  ls命令升级版
 + ...
 
