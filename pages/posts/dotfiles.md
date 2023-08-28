@@ -23,11 +23,11 @@ sh $HOME/dotfiles//dotfiles-manage/install.sh
 + Arch Linux
 1. 字体
 ```sh
-pacman -S ttf-jetbrains-mono-nerd --noconfirm 
+pacman -S nerd-fonts-jetbrains-mono --noconfirm 
 ```
 2. 程序
 ```sh
-pacman -S fish starship waybar rofi hyprland hyprpaper alacritty zoxide fzf grim dunst thefuck helix exa --noconfirm
+pacman -S fish starship waybar rofi hyprland hyprpaper alacritty zoxide fzf grim dunst thefuck helix exa atuin --noconfirm
 ```
 + Other Linux
 请自行安装所需应用
@@ -73,4 +73,5 @@ cp -r $HOME/dotfiles/* $HOME/.config/
 + [Dunst](https://dunst-project.org/) 通知管理器
 + [TheFuck](https://github.com/nvbn/thefuck/) 命令行命令改错工具
 + [exa](https://github.com/ogham/exa)  ls命令升级版
++ [atuin](https://atuin.sh/) 历史命令查询
 + ...
